@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomocnik CSS</title>
+    <link rel="stylesheet" href="../05/styl2.css">
+    <script src="../05/main.js"></script>
+</head>
+<body>
+    <div id="kontener">
+        <header class="head1">
+            <h1>
+                Poomocnik CSS
+            </h1>
+        </header>
+        <header class="head2">
+            <ul>
+                <li><a href="kolory.html">Kolory</a></li>
+                <li><a href="czcionki.html">Czcionki</a></li>
+                <li><a href="style.html">Style CSS</a></li>
+                <li><a href="https://www.w3schools.com/css/" target="_blank">Pomoc</a></li>
+            </ul>
+        </header>
+        <section class="section1">
+            <h2>Podaj składową H koloru w kodzie HSL</h2>
+            <p>0 do 30 czerwienie, do 60 żółcie, do 150 zielenie, do 250 niebieskie, do 360 fiolet i purpura</p>
+            <img src="../05/kolory.jpg" alt="Przestrzeń barw HSL">
+            <input type="number" placeholder="0 – 360" max="360" min="0" id="input1">
+            <input type="button" value="Generuj paletę" onclick="funkcja1()">
+            <table id="table1">
+                <tr>
+                    <td>Kolor główny</td>
+                </tr>
+                <tr>
+                    <td>Kolor 2</td>
+                    <td>Kolor 3</td>
+                    <td>Kolor 4</td>
+                    <td>Kolor 5</td>
+                </tr>
+            </table>
+        </section>
+        <footer class="foot1">
+            <p>Autor: 05</p>
+        </footer>
+    </div>
+</body>
+</html>
