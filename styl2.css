@@ -11,6 +11,7 @@
     color:white;
     width: 50%;
     height:100px;
+    display: inline-block;
 }
 
 .section1{
@@ -39,14 +40,17 @@ a{
     text-decoration: none;
 }
 
-a :hover{
+a:hover{
     color:white;
 }
 
-ul{
+li{
     display: inline-block;
     padding: 5px;
     margin: 10px;
     border-bottom: solid 1px white;
 }
 
+.heady{
+    display: flex;
+}
